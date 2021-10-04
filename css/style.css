@@ -37,9 +37,10 @@
 
 .box {
     width: 30%;
+    height: 460px;
     margin-left: 21px;
     margin-right: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -129,11 +130,30 @@ img {
     object-fit: cover;  
 }
 
+.prodotto {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    line-height: 1.0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+#saldo {
+    color: red;
+}
+
+#prezzo-originale {
+    text-decoration: line-through;
+}
+
 /* *** footer *** */
 
 /* *** debug *** */
 
-.debug.contaneir {
+/* .debug.contaneir {
     height: 800px;
     background-color: blue;
 }
@@ -143,7 +163,7 @@ img {
     border-right: 2px solid brown;
     border-bottom: 2px solid brown;
     background-color: chartreuse;
-}
+} */
 
 /* .debug .preferiti {
     width: 30px;
