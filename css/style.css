@@ -21,6 +21,16 @@
     float: left;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
 /* *** header *** */
 
 /* *** main *** */
@@ -32,6 +42,43 @@
     margin-bottom: 30px;
     position: relative;
 }
+
+.img-1:hover .overlay {
+    background-image: url(../img/1b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-2:hover .overlay {
+    background-image: url(../img/2b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-3:hover .overlay {
+    background-image: url(../img/3b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-4:hover .overlay {
+    background-image: url(../img/4b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-5:hover .overlay {
+    background-image: url(../img/5b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-6:hover .overlay {
+    background-image: url(../img/6b.webp);
+    background-position: center;
+    background-size: cover;
+}
+
 
 .preferiti {
     position: absolute;
