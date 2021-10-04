@@ -29,6 +29,17 @@
     width: 30%;
     margin-right: 10px;
     margin-bottom: 30px;
+    position: relative;
+}
+
+.preferiti {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    line-height: 30px;
+    text-align: center;
+    
+    
 }
 
 /* *** footer *** */
@@ -45,5 +56,11 @@
     border-right: 2px solid brown;
     border-bottom: 2px solid brown;
     background-color: chartreuse;
+}
+
+.debug .preferiti {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
 }
 
