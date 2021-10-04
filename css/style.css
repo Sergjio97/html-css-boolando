@@ -59,6 +59,11 @@
     bottom: 10px;
 }
 
+img {
+    width: 100%;
+    object-fit: cover;  
+}
+
 /* *** footer *** */
 
 /* *** debug *** */
@@ -69,7 +74,7 @@
 }
 
 .debug .box {
-    height: 300px;
+    height: 460px;
     border-right: 2px solid brown;
     border-bottom: 2px solid brown;
     background-color: chartreuse;
