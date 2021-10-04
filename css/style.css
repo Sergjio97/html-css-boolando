@@ -37,9 +37,13 @@
     right: 0;
     top: 10px;
     line-height: 30px;
-    text-align: center;
-    
-    
+    text-align: center;   
+}
+
+.saldi {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
 }
 
 /* *** footer *** */
@@ -62,5 +66,11 @@
     width: 30px;
     height: 30px;
     background-color: grey;
+}
+
+.debug .saldi {
+    width: 30px;
+    height: 30px;
+    background-color: red;
 }
 
