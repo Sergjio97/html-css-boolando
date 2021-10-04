@@ -27,6 +27,7 @@
 
 .box {
     width: 30%;
+    margin-left: 21px;
     margin-right: 10px;
     margin-bottom: 30px;
     position: relative;
@@ -41,6 +42,18 @@
 }
 
 .saldi {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.sostenibilita {
+    position: absolute;
+    left: 40px;
+    bottom: 10px;
+}
+
+#sostenibilita {
     position: absolute;
     left: 0;
     bottom: 10px;
@@ -72,5 +85,17 @@
     width: 30px;
     height: 30px;
     background-color: red;
+}
+
+.debug .sostenibilita {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(18, 175, 18);
+}
+
+.debug #sostenibilita {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(18, 175, 18);
 }
 
