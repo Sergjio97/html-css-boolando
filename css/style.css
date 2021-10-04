@@ -89,21 +89,36 @@
 }
 
 .saldi {
+    height: 30px;
+    background-color: red;
     position: absolute;
     left: 0;
     bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
 }
 
 .sostenibilita {
+    height: 30px;
+    background-color: rgb(18, 175, 18);
     position: absolute;
     left: 40px;
     bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
 }
 
 #sostenibilita {
+    height: 30px;
+    background-color: rgb(18, 175, 18);
     position: absolute;
-    left: 0;
+    left: o;
     bottom: 10px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
 }
 
 img {
@@ -133,21 +148,21 @@ img {
     background-color: grey;
 }
 
-.debug .saldi {
+/* .debug .saldi {
     width: 30px;
     height: 30px;
     background-color: red;
-}
+} */
 
-.debug .sostenibilita {
+/* .debug .sostenibilita {
     width: 30px;
     height: 30px;
     background-color: rgb(18, 175, 18);
-}
+} */
 
-.debug #sostenibilita {
+/* .debug #sostenibilita {
     width: 30px;
     height: 30px;
     background-color: rgb(18, 175, 18);
-}
+} */
 
