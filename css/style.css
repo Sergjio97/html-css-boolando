@@ -81,6 +81,9 @@
 
 
 .preferiti {
+    width: 30px;
+    height: 30px;
+    background-color:white;
     position: absolute;
     right: 0;
     top: 10px;
@@ -142,11 +145,11 @@ img {
     background-color: chartreuse;
 }
 
-.debug .preferiti {
+/* .debug .preferiti {
     width: 30px;
     height: 30px;
     background-color: grey;
-}
+} */
 
 /* .debug .saldi {
     width: 30px;
