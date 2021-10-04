@@ -5,8 +5,45 @@
     box-sizing: border-box;
 }
 
+.contaneir {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
 /* *** header *** */
 
 /* *** main *** */
 
+.box {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
 /* *** footer *** */
+
+/* *** debug *** */
+
+.debug.contaneir {
+    height: 800px;
+    background-color: blue;
+}
+
+.debug .box {
+    height: 300px;
+    border-right: 2px solid brown;
+    border-bottom: 2px solid brown;
+    background-color: chartreuse;
+}
+
